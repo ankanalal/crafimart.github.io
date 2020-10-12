@@ -1,0 +1,70 @@
+
+
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+   background: linear-gradient(to bottom, #ffcc99 0%, #99ccff 100%);
+}
+
+
+.view {
+    height: 100%;
+}
+.background-img{
+	background-image: url(https://cdn.shopify.com/s/files/1/0030/9759/1872/t/39/assets/pf-3ee94eba--Lot-162-Shopify-home-page-banner.png?v=1581577757);
+	height: 500px;
+	width: 100%;
+	position: relative;
+	 
+	background-size: cover;
+	background-repeat: no-repeat;
+ 
+  /* Set up positioning */
+ 
+}
+#mainNavbar .nav-link:hover {
+	color:#EA1C2C ;
+}
+.mid{
+	text-align: center;
+	align-items: center;
+	color: #7B68EE;
+}
+.pictures{
+	height: 300px;
+	width: 300px;
+}
+.para{
+	text-align: center;
+	align-items: center;
+	font-size: 30px;
+	color: #7B68EE;
+}
+#video{
+	margin-left: 300px;
+}
+.specifications{
+	height: 500px;
+	width: 500px;
+}
+.heading{
+font-size: 40px;
+	color: #7B68EE;
+}
+.headpara{
+	padding-left: 50px;
+	padding-top: 30px;
+}
+.navbar .scrolled{
+	background-color: white;
+}
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #FF8F33;
+  color: white;
+  text-align: center;
+}

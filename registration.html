@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Sign Up</title>
+<link rel='stylesheet' href='reistration.css' type='text/css' /> 
+<script src="registration.js"></script>     
+</head>
+<body onload='document.form1.text1.focus()'>
+<div class="mail">
+<h2>Enter your Credentials</h2>
+<form name="form1" action="#"> 
+<ul>
+<li>Name<br><input type='text' name='text2'/></li>
+<li>&nbsp;</li>
+<li>Email<br><input type='text' name='text1' placeholder="Enter email" /></li>
+<li>&nbsp;</li>
+<li>Password<br><input type="password" placeholder="Enter password"></li><br>
+<li class="submit" ><input type="submit" name="submit" value="Submit"  onclick="ValidateEmail(document.form1.text1)"/> </li>
+<li>&nbsp;</li>
+</ul>
+</form>
+</div>
+<script src="email-validation.js"></script>
+</body>
+</html>
